@@ -1,0 +1,41 @@
+@media(max-width:1200px) {}
+
+@media(max-width:968px) {
+    .section_info__feedbacks {
+        justify-content: space-around !important;
+    }
+
+    .main__about {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .about_info {
+        width: 100% !important;
+    }
+}
+
+@media(max-width:776px) {
+    .header_logo_nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        margin-bottom: 15px;
+    }
+
+    .nav_lists {
+
+        justify-content: center !important;
+    }
+
+    .about_img{
+        width: 100%;
+    }
+}
+
+@media(max-width:576px) {}

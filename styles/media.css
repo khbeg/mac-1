@@ -1,0 +1,18 @@
+@media(max-width:998px){
+.prof_skills__img img{
+    display: none;
+}
+.prof_skills__progress{
+   margin-left: auto;
+   margin-right: auto;
+}
+}
+@media(max-width:776px){
+    .section_info__feedbacks{
+        flex-direction: column;
+    }
+    .projects_done{
+        margin: 0;
+    }
+}
+@media(max-width:562px){}
